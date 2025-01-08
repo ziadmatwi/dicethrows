@@ -1,0 +1,5 @@
+név;kor;beosztás
+Zoli;31;sofőr
+Sanyi;22;CEO
+Lajos;62;szakács
+Sándor;11;ceo fia
