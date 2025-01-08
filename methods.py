@@ -90,14 +90,15 @@ def data_structure(data_list):
     for i in range (2,12):
         if data_list.count(i) > 0:
             db = data_list.count(i)
-            print(i,"*"*(db//len(data_list)),f"({db} db)")
+            stars_number = int((db/len(data_list))*100)
+            print(i,"*"*stars_number,f"({db} db)")
 
 
 
 
 
 
-thrown_list = dice_throw(30)
+thrown_list = dice_throw(30000)
 data_structure(thrown_list)
 
         
